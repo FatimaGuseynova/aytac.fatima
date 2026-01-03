@@ -1,0 +1,110 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+.navbar h2{
+    font: 400 24px arial;
+    color: #fff;
+}
+
+.navbar a[type="green"]{
+    color: #fff;
+    background-color: #46cb46;
+    border: 1px solid #46cb46;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.bg-color{
+    background-color: rgb(32, 29, 29);
+    padding: 20px;
+}
+
+.bg-color1{
+    background-color: rgb(13, 13, 182);
+    padding: 15px;
+}
+
+
+.navbar p{
+    color: #fff;
+    font: 500 16px arial;
+    padding-right: 15px;
+}
+
+.navbar p i{
+    color: #3247ff;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font: 500 16px arial;
+    padding-right: 15px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+    font: 500 17px arial;
+    margin: 15px 0;
+}
+
+.navbar h3{
+    font: 500 24px arial;
+    margin-right: 20px;
+}
+
+.navbar a[type="button"]{
+    font: 400 17px arial;
+    text-decoration: none;
+    color: #000;
+}
+
+
+button{
+    border: 1px solid #ff7119;
+    padding: 20px 25px;
+    color: #fff;
+    font: 600 17px arial;
+    background-color: #ff7119;
+}
+
+.bg-image{
+    background: linear-gradient(#69696985,#7f7f7f77), url("../img/ftft.jpg")center/cover;
+    height: 80vh;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+h1{
+    font: 800 30px arial;
+    color: #fff;
+}
+
+.text h6{
+    font: 600 20px arial;
+    color: #fff;
+}
+
+.conteiner{
+    width: 1110px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}

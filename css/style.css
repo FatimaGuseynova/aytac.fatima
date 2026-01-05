@@ -137,3 +137,135 @@ form a{
     background-color: #3247ff;
     padding: 10px;
 }
+/* SECTION-3 AYNUR */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #fff;
+        }
+
+        .hotdeal-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hotdeal-section small {
+            color: #999;
+            letter-spacing: 2px;
+            font-size: 12px;
+        }
+
+        .hotdeal-section h2 {
+            font-size: 40px;
+            margin: 10px 0 50px;
+            font-weight: 700;
+        }
+
+        .hotdeal-box {
+            width: 1100px;
+            margin: auto;
+            display: flex;
+            background: #1f1f1f;
+        }
+
+        /* LEFT IMAGE */
+        .hotdeal-image {
+            width: 50%;
+            position: relative;
+        }
+
+        .hotdeal-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .photos-btn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: #fff;
+            color: #0047ff;
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+
+        /* RIGHT CONTENT */
+        .hotdeal-content {
+            width: 50%;
+            color: #fff;
+            padding: 60px 50px;
+            text-align: center;
+        }
+
+        .hotdeal-content small {
+            color: #aaa;
+            font-size: 13px;
+        }
+
+        .hotdeal-content h3 {
+            font-size: 26px;
+            margin: 15px 0;
+            line-height: 1.4;
+        }
+
+        .location {
+            color: #aaa;
+            font-size: 13px;
+            margin-bottom: 25px;
+        }
+
+        .price {
+            background: #ff6a00;
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .play-btn {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #777;
+            border-radius: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            margin-bottom: 35px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #333;
+            padding-top: 25px;
+        }
+
+        .feature {
+            flex: 1;
+            text-align: center;
+            font-size: 13px;
+            color: #ccc;
+        }
+
+        .feature i {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        .feature span {
+            display: block;
+            font-weight: bold;
+            color: #fff;
+        }
